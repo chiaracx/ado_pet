@@ -1,0 +1,80 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+.center{
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding:50px;
+}
+
+form>div>label{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 18px;
+ padding-right: 10px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+ion-header{
+  height: 100px;
+  background-color: #faedcd;
+}
+
+
+
+ion-title{
+  margin-top: 100px;
+  color:white;
+  text-align: center;
+  font-size:48px;
+  max-height: 25vh; 
+  background-color: #D2E3C8;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 16;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.internal-padding{
+  padding-left: 20%;
+  padding-right: 20%;
+}
